@@ -1,0 +1,32 @@
+:root {
+    --blue: steelblue;
+    --red: firebrick;
+    --green: mediumseagreen;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font: sans-serif;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    animation: "color-change" 4s timing-function delay infinite direction fill-mode;
+}
